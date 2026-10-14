@@ -1,0 +1,33 @@
+generator_ckpt: checkpoints/ar_diffusion.pt
+training_lora: slow  # choose between "slow" or "fast"
+fixed_sample: 0 # select the sample index to use for training, e.g., 0, 1 ...
+generator_grad:
+  model: true
+denoising_step_list:
+- 1000
+- 750
+- 500
+- 250
+warp_denoising_step: true
+generator_task: causal_video
+generator_fsdp_wrap_strategy: size
+text_encoder_fsdp_wrap_strategy: size
+mixed_precision: true
+seed: 0
+wandb_host: https://api.wandb.ai
+wandb_key: {your key}
+wandb_entity: {your entity}
+wandb_project: {your project}
+wandb_name: {your name}
+sharding_strategy: hybrid_full
+lr: 2.0e-06
+beta1: 0.9
+beta2: 0.999
+data_path: dataset/ODE6KCausal_chunkwise
+batch_size: 1
+log_iters: 60
+trainer: ode
+gradient_checkpointing: true
+num_frame_per_block: 3
+model_kwargs:
+  timestep_shift: 5.0
