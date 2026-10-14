@@ -10,17 +10,17 @@ Official PyTorch implementation of the paper:
 [Junchao Yi](https://github.com/Junc1i)<sup>2</sup>,
 [Hu Jian Guo](https://ieeexplore.ieee.org/author/37536384400)<sup>3</sup>,
 [Linjie Li](https://scholar.google.com/citations?user=WR875gYAAAAJ&hl=en)<sup>4</sup>,
-[Alex Jinpeng Wang](https://fingerrec.github.io/)<sup>5</sup>
-[Rui Zhao](https://ruizhaocv.github.io/)<sup>6</sup>
+[Rui Zhao](https://ruizhaocv.github.io/)<sup>5</sup>
+[Alex Jinpeng Wang](https://fingerrec.github.io/)<sup>6</sup>
 <br>
-<sup>1</sup>WuHan University, <sup>2</sup>University of Electronic Science and Technology of China, <sup>3</sup>Sun Yat-sen University, <sup>4</sup>University of Washington, <sup>5</sup>Central South University, <sup>6</sup>National University of Singapore
+<sup>1</sup>WuHan University, <sup>2</sup>University of Electronic Science and Technology of China, <sup>3</sup>Sun Yat-sen University, <sup>4</sup>University of Washington, <sup>5</sup>National University of Singapore, <sup>6</sup>Central South University
 <br>
-[ArXiv](https://arxiv.org/abs/2512.02899) | [Homepage](https://zhuobaidong.github.io/Glance-Forcing/) | [Model🤗](https://huggingface.co/CSU-JPG/Glance)
+[ArXiv](https://arxiv.org/abs/2512.02899) | [Homepage](https://zhuobaidong.github.io/Glance-Forcing/) | [Model🤗](https://huggingface.co/zhuobai/Glance-Forcing)
 
 <img src="assets/teaser2.jpg" alt=""/>
 
 # 🔥 News
-- **2026.10.15** : The [paper](https://arxiv.org/abs/2602.02214), [project page](https://thu-ml.github.io/CausalForcing.github.io/), and code are released.
+- **2026.10.15** : The [paper](https://arxiv.org/abs/2602.02214), [project page](https://zhuobaidong.github.io/Glance-Forcing/), and code are released.
 
 # Quick Start
 
