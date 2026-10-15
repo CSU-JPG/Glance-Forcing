@@ -15,12 +15,12 @@ Official PyTorch implementation of the paper:
 <br>
 <sup>1</sup>WuHan University, <sup>2</sup>University of Electronic Science and Technology of China, <sup>3</sup>Sun Yat-sen University, <sup>4</sup>University of Washington, <sup>5</sup>National University of Singapore, <sup>6</sup>Central South University
 <br>
-[ArXiv](https://arxiv.org/abs/2512.02899) | [Homepage](https://zhuobaidong.github.io/Glance-Forcing/) | [Model🤗](https://huggingface.co/zhuobai/Glance-Forcing)
+[ArXiv](https://arxiv.org/abs/2610.20220) | [Homepage](https://zhuobaidong.github.io/Glance-Forcing/) | [Model🤗](https://huggingface.co/zhuobai/Glance-Forcing)
 
 <img src="assets/teaser2.jpg" alt=""/>
 
 # 🔥 News
-- **2026.10.15** : The [paper](https://arxiv.org/abs/2602.02214), [project page](https://zhuobaidong.github.io/Glance-Forcing/), and code are released.
+- **2026.10.15** : The [paper](https://arxiv.org/abs/2610.20220), [project page](https://zhuobaidong.github.io/Glance-Forcing/), and code are released.
 
 # Quick Start
 
@@ -176,10 +176,22 @@ This codebase is built on top of the open-source implementation of [CausVid](htt
 # References
 If you find the method useful, please cite
 ```
-@article{zhu2026causal,
-  title={Causal Forcing: Autoregressive Diffusion Distillation Done Right for High-Quality Real-Time Interactive Video Generation},
-  author={Zhu, Hongzhou and Zhao, Min and He, Guande and Su, Hang and Li, Chongxuan and Zhu, Jun},
-  journal={arXiv preprint arXiv:2602.02214},
-  year={2026}
+@misc{dong2026glanceforcingmakingbidirectional,
+      title={Glance Forcing: Making Bidirectional Diffusion Autoregressive at a Glance}, 
+      author={Zhuobai Dong and Junchao Yi and Hu Jian Guo and Linjie Li and Rui Zhao and Alex Jinpeng Wang},
+      year={2026},
+      eprint={2610.20220},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2610.20220}, 
+}
+@misc{dong2025glanceacceleratingdiffusionmodels,
+      title={Glance: Accelerating Diffusion Models with 1 Sample}, 
+      author={Zhuobai Dong and Rui Zhao and Songjie Wu and Junchao Yi and Linjie Li and Zhengyuan Yang and Lijuan Wang and Alex Jinpeng Wang},
+      year={2025},
+      eprint={2512.02899},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2512.02899}, 
 }
 ```
