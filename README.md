@@ -173,6 +173,11 @@ Such models are the final models used to generate videos.
 # Acknowledgements
 This codebase is built on top of the open-source implementation of [CausVid](https://github.com/tianweiy/CausVid), [Self Forcing](https://github.com/guandeh17/Self-Forcing), [Causal Forcing](https://github.com/thu-ml/Causal-Forcing) and the [Wan2.1](https://github.com/Wan-Video/Wan2.1) repo. 
 
+# Previous Work
+<img src="assets/Contranst.png" alt="Contrast" width="80%" />
+See our previous work: [Glance: Accelerating Diffusion Models with 1 Sample](https://zhuobaidong.github.io/Glance/) (ECCV 2026). <br>
+Glance requires only one training sample to obtain Slow-LoRA and Fast-LoRA, providing plug-and-play acceleration of the base image generation model.
+
 # References
 If you find the method useful, please cite
 ```
